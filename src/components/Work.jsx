@@ -5,25 +5,25 @@ import WorkItem from './WorkItem'
 const data = [
     {
         year: 2010,
-        title: 'HORMYMAN S.A.',
-        duration: '6 años',
-        details: 'Tareas Administrativas, Servicio Tecnico, Administracion de Personal',
+        title: 'Work 1',
+        duration: '6 years',
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, qui et, asperiores rerum exercitationem excepturi nostrum beatae ex neque cumque dicta ab suscipit id quaerat quod iusto porro eius veritatis!',
 
     },
 
     {
         year: 2016,
-        title: 'SUABOND S.A.',
-        duration: '2 años',
-        details: 'Tareas Administrativas, Servicio Tecnico, Administracion de Personal',
+        title: 'Work 2',
+        duration: '2 years',
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, qui et, asperiores rerum exercitationem excepturi nostrum beatae ex neque cumque dicta ab suscipit id quaerat quod iusto porro eius veritatis!',
 
     },
 
     {
         year: 2018,
-        title: 'CONSTRUTEMPO S.A.S',
-        duration: 'Actualidad',
-        details: 'Tareas Administrativas',
+        title: 'Work 3',
+        duration: '5 Years',
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, qui et, asperiores rerum exercitationem excepturi nostrum beatae ex neque cumque dicta ab suscipit id quaerat quod iusto porro eius veritatis!',
 
     },
 

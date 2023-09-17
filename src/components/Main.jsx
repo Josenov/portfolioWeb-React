@@ -7,11 +7,11 @@ export const Main = () => {
   return (
     <>
     <div id='main'>
-        <img className='w-full h-screen object-cover object-left scale-x-[-1] opacity-100' src={BgImage} alt="" />
+        <img className='w-full h-screen object-cover object-center scale-x-[-1] opacity-100' src={BgImage} alt="" />
     </div>
     <div className='w-full h-screen absolute top-0 left-0'>
-        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center lg:items-start'>
-          <h1 className='sm:text-7xl text-5xl font-bold text-white'>Jose Maria Novillo</h1>
+        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center lg:items-center'>
+          <h1 className='lg:text-7xl text-4xl  font-bold text-white'>Jose Maria Novillo</h1>
           <h2 className='flex sm:text-4xl text-3xl font-bold text-yellow-300 p-2'>
                 <TypeAnimation
                     sequence={[
