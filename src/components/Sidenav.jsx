@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineProject} from 'react-icons/ai'
-import {GrProjects} from 'react-icons/gr'
+import {GrCertificate, GrTroubleshoot} from 'react-icons/gr'
+
+
 
 export const Sidenav = () => {
     const [nav, setNav] = useState(false)
@@ -19,10 +21,15 @@ export const Sidenav = () => {
                         < AiOutlineHome size={20}/>
                         <span className='pl-4'>Home</span>
                     </a>
-                    <a onClick={handleNav} href='#work' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <GrProjects size={20}/>
-                        <span className='pl-4'>Work</span>
+                    <a onClick={handleNav} href='#certification' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <GrCertificate size={20}/>
+                        <span className='pl-4'>Certification</span>
                     </a>
+                    <a onClick={handleNav} href='#skills' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <GrTroubleshoot size={20}/>
+                        <span className='pl-4'>Skills</span>
+                    </a>
+
                     <a onClick={handleNav} href='#projects' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <AiOutlineProject size={20}/>
                         <span className='pl-4'>Projects</span>
@@ -43,8 +50,11 @@ export const Sidenav = () => {
                     <a href='#main' className='rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineHome />
                     </a>
-                    <a href='#work' className='rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <GrProjects />
+                    <a href='#certification' className='rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <GrCertificate />
+                    </a>
+                    <a href='#skills' className='rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <GrTroubleshoot />
                     </a>
                     <a href='#projects' className='rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineProject />

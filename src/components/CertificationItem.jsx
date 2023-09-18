@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WorkItem = ({year, title, duration, details }) => {
+const CertificationItem = ({year, title, duration, details, image }) => {
     return (
         <ol className='flex flex-col md-flex-row  justify-center relative border-l border-stone-200'>
             <li className='mb-10 ml-4'>
@@ -11,11 +11,16 @@ const WorkItem = ({year, title, duration, details }) => {
                     <span className='text-xl font-semibold text-white'>{title}</span>
                     <span className='my-1 text-l font-normal leading-none text-stone-400'>{duration}</span>
                     
+                    
                 </p>
-                <p className='my-2 text-base font-normal text-stone-500'>{details}</p>
+                <div className='flex items-center m-4 p-2'>
+                    <img className='h-24 w-auto text-white rounded-xl ' src={image} alt="" />
+                    <p className='my-2 p-4 text-base font-normal text-stone-500'>{details}</p>
+                </div>
+                
             </li>
         </ol>
     )
 }
 
-export default WorkItem
+export default CertificationItem
