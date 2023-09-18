@@ -13,7 +13,7 @@ const CertificationItem = ({year, title, duration, details, image }) => {
                     
                     
                 </p>
-                <div className='flex items-center m-4 p-2'>
+                <div className='flex items-center flex-wrap justify-center flex-row m-4 p-2 text-left'>
                     <img className='h-24 w-auto text-white rounded-xl ' src={image} alt="" />
                     <p className='my-2 p-4 text-base font-normal text-stone-500'>{details}</p>
                 </div>
