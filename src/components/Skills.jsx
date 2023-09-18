@@ -17,8 +17,8 @@ const Skills = () => {
             <FaJs className=' text-yellow-400' size={100}/>
             <FaReact className=' text-blue-400' size={100}/>
             <FaNodeJs className=' text-green-400' size={100}/>
-            <img src="../public/mongodb.png"  className='h-24 w-24' alt="" />
-            <img src="../public/express.png"  className='h-24 w-24' alt="" />
+            <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png"  className='h-24 w-24' alt="" />
+            <img src="https://wsofter.ru/wp-content/uploads/2017/12/node-express.png"  className='h-24 w-24' alt="" />
             
             </div>
             
