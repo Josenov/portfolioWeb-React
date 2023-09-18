@@ -11,12 +11,15 @@ const Skills = () => {
             <p className='text-center py-8 text-xl font-medium text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, eligendi autem consequatur neque soluta nisi perferendis ullam animi eum, sequi voluptate pariatur id itaque nemo minima voluptas quasi? Dolor, excepturi!</p>
             <h2 className='text-xl font-bold text-center text-[white] pb-8'>Technologies</h2>
 
-            <div className='flex justify-center gap-5 '>
+            <div className='flex justify-center gap-5 align-items'>
             <FaHtml5 className=' text-orange-500' size={100}/>
             <FaCss3 className=' text-blue-700' size={100}/>
             <FaJs className=' text-yellow-400' size={100}/>
             <FaReact className=' text-blue-400' size={100}/>
             <FaNodeJs className=' text-green-400' size={100}/>
+            <img src="../public/mongodb.png"  className='h-24 w-24' alt="" />
+            <img src="../public/express.png"  className='h-24 w-24' alt="" />
+            
             </div>
             
         </div>
