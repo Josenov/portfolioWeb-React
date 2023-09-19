@@ -2,7 +2,7 @@ import React from 'react'
 
 const CertificationItem = ({year, title, duration, details, image }) => {
     return (
-        <ol className='relative border-l border-stone-200'>
+        <ol className='relative border-l border-stone-200 font-neon'>
             <li className='mb-10 ml-4'>
                 <div className='absolute w-3 h-3 bg-stone-200 rounded-full  mt-1.5 -left-1.5 border-white'/>
 

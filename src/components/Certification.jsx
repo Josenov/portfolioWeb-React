@@ -34,7 +34,7 @@ const data = [
 const Certification = () => {
     return (
         <div id='certification' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-            <h1 className='text-5xl font-bold text-center text-white pb-8'>Certifications</h1>
+            <h1 className='text-5xl font-bold text-center text-white pb-8 font-neon'>Certifications</h1>
             {
                 data.map((item, id)=>(
                     <CertificationItem key={id} year={item.year} title={item.title} duration={item.duration} details={item.details} image={item.image} />

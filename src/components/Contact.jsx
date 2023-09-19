@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 font-neon'>
             <h1 className='  text-5xl font-bold text-center text-white pb-8'>Contact</h1>
             <form action="" method='POST' encType='multipart/form-data'>
                 <div className='grid md:grid-cols-1 gap-4 w-full py-2'>

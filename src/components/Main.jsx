@@ -3,16 +3,16 @@ import BgImage from '../images/bg-workspace.jpg'
 import {TypeAnimation} from 'react-type-animation'
 import {FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
 import {FaXTwitter} from 'react-icons/fa6'
-import '../App.css'
+
 
 export const Main = () => {
   return (
     <>
-    <div id='main'>
+    <div id='main' >
         <img className='w-full h-screen object-cover object-center scale-x-[-1] opacity-40' src={BgImage} alt="" />
         
     </div>
-    <div className='w-full h-screen absolute top-0 left-0'>
+    <div className='w-full h-screen absolute top-0 left-0 font-neon'>
         
         <div className='max-w-[700px] m-auto pt-8 h-full w-full flex flex-col justify-center items-center lg:items-center'>
         <img src="https://images.hola.com/imagenes/actualidad/20211110199327/paul-rudd-hombre-mas-sexy/1-18-201/rudd-getty-m.jpg?tx=w_680" className='rounded-full h-48 w-48 md:h-64 md:w-64' alt="" />

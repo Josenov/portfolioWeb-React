@@ -6,7 +6,7 @@ import { FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact} from 'react-icons/fa'
 
 const Skills = () => {
     return (
-        <div id='skills' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 '>
+        <div id='skills' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 font-neon '>
             <h1 className='text-5xl font-bold text-center text-[white] pb-8'>Skills</h1>
             <p className='text-center py-8 text-xl font-normal text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, eligendi autem consequatur neque soluta nisi perferendis ullam animi eum, sequi voluptate pariatur id itaque nemo minima voluptas quasi? Dolor, excepturi!</p>
             <h2 className='text-xl font-bold text-center text-[white] pb-8'>Technologies</h2>
