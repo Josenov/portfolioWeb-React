@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <div id='skills' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 '>
             <h1 className='text-5xl font-bold text-center text-[white] pb-8'>Skills</h1>
-            <p className='text-center py-8 text-xl font-medium text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, eligendi autem consequatur neque soluta nisi perferendis ullam animi eum, sequi voluptate pariatur id itaque nemo minima voluptas quasi? Dolor, excepturi!</p>
+            <p className='text-center py-8 text-xl font-normal text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, eligendi autem consequatur neque soluta nisi perferendis ullam animi eum, sequi voluptate pariatur id itaque nemo minima voluptas quasi? Dolor, excepturi!</p>
             <h2 className='text-xl font-bold text-center text-[white] pb-8'>Technologies</h2>
 
             <div className='flex justify-center gap-5 flex-wrap align-items'>

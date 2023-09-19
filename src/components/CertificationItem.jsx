@@ -2,7 +2,7 @@ import React from 'react'
 
 const CertificationItem = ({year, title, duration, details, image }) => {
     return (
-        <ol className='flex flex-col md-flex-row  justify-center relative border-l border-stone-200'>
+        <ol className='relative border-l border-stone-200'>
             <li className='mb-10 ml-4'>
                 <div className='absolute w-3 h-3 bg-stone-200 rounded-full  mt-1.5 -left-1.5 border-white'/>
 
@@ -13,9 +13,9 @@ const CertificationItem = ({year, title, duration, details, image }) => {
                     
                     
                 </p>
-                <div className='flex items-center flex-wrap justify-center flex-row m-4 p-2 text-left'>
-                    <img className='h-24 w-auto text-white rounded-xl ' src={image} alt="" />
-                    <p className='my-2 p-4 text-base font-normal text-stone-500'>{details}</p>
+                <div className='flex flex-wrap sm:justify-center sm:flex-row m-4 p-2 text-left'>
+                    <img className='h-48 w-auto text-white rounded-xl ' src={image} alt="" />
+                    <p className='m-2 p-4 text-base font-normal text-stone-500'>{details}</p>
                 </div>
                 
             </li>

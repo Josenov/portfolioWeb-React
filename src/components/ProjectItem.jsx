@@ -8,7 +8,7 @@ const ProjectItem = ({ img, title }) => {
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-xl font-bold pb-3 text-center text-white'>{title}</h3>
                 <a href="/">
-                    <p className='text-center p-3 rounded-full bg-yellow-300 text-gray-700 font-bold cursor-pointer text-lg'>More Info</p>
+                    <p className='text-center w-64 p-3 rounded-full bg-yellow-300 text-gray-700  cursor-pointer text-lg'>More Info</p>
                 </a>
             </div>
         </div>
