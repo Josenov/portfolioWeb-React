@@ -16,9 +16,9 @@ export const Main = () => {
         
         <div className='max-w-[700px] m-auto pt-8 h-full w-full flex flex-col justify-center items-center lg:items-center'>
         <img src="https://images.hola.com/imagenes/actualidad/20211110199327/paul-rudd-hombre-mas-sexy/1-18-201/rudd-getty-m.jpg?tx=w_680" className='rounded-full h-48 w-48 md:h-64 md:w-64' alt="" />
-          <h1 className='lg:text-7xl text-4xl  my-2 font-normal text-white'>Jose Maria Novillo</h1>
-          <h2 className='flex sm:text-4xl text-lg font-normal text-yellow-300 p-2 font-handjet'>
-                <TypeAnimation className='text-lg'
+          <h1 className='sm:text-7xl text-4xl  my-2 font-normal text-white'>Jose Maria Novillo</h1>
+          <h2 className='flex text-4xl sm:text-5xl font-normal text-yellow-300 p-2 font-handjet'>
+                <TypeAnimation 
                     sequence={[
                       'Frontend-Developer',
                       3000,
@@ -31,7 +31,7 @@ export const Main = () => {
                     ]}
                     wrapper="span"
                     speed={40}
-                    style={{ fontSize:'3rem', display: 'inline-block', paddingLeft:'5px' }}
+                    style={{ display: 'inline-block', paddingLeft:'5px' }}
                     repeat={Infinity}
               />
           </h2>
