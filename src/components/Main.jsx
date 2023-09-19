@@ -3,6 +3,7 @@ import BgImage from '../images/bg-workspace.jpg'
 import {TypeAnimation} from 'react-type-animation'
 import {FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
 import {FaXTwitter} from 'react-icons/fa6'
+import '../App.css'
 
 export const Main = () => {
   return (
@@ -16,8 +17,8 @@ export const Main = () => {
         <div className='max-w-[700px] m-auto pt-8 h-full w-full flex flex-col justify-center items-center lg:items-center'>
         <img src="https://images.hola.com/imagenes/actualidad/20211110199327/paul-rudd-hombre-mas-sexy/1-18-201/rudd-getty-m.jpg?tx=w_680" className='rounded-full h-48 w-48 md:h-64 md:w-64' alt="" />
           <h1 className='lg:text-7xl text-4xl  my-2 font-normal text-white'>Jose Maria Novillo</h1>
-          <h2 className='flex sm:text-4xl text-3xl font-normal text-yellow-300 p-2'>
-                <TypeAnimation
+          <h2 className='flex sm:text-4xl text-lg font-normal text-yellow-300 p-2'>
+                <TypeAnimation className='text-lg'
                     sequence={[
                       'Frontend-Developer',
                       3000,
@@ -29,8 +30,8 @@ export const Main = () => {
                       3000
                     ]}
                     wrapper="span"
-                    speed={50}
-                    style={{ fontSize: '1em', display: 'inline-block', paddingLeft:'5px' }}
+                    speed={40}
+                    style={{ fontSize:'3rem', display: 'inline-block', paddingLeft:'5px', fontFamily:'Handjet' }}
                     repeat={Infinity}
               />
           </h2>

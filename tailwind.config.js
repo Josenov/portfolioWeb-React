@@ -7,6 +7,7 @@ export default {
   theme: {
     fontFamily: {
       'tilt neon': ['Tilt Neon', 'cursive'],
+      'handjet':['Handjet', 'cursive'],
     extend: {},
   },
   plugins: [],
