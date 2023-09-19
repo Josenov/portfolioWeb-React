@@ -12,8 +12,8 @@ const Projects = () => {
             <p className='text-center py-8 text-xl font-normal text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, eligendi autem consequatur neque soluta nisi perferendis ullam animi eum, sequi voluptate pariatur id itaque nemo minima voluptas quasi? Dolor, excepturi!</p>
         </div>
         <div className='flex items-center justify-center flex-wrap gap-8 rounded-full font-neon'>
-            <ProjectItem img={TastyImg} title={'TastyLand'}/>
-            <ProjectItem img={AmazingImg} title={'Amazing Events'}/>
+            <ProjectItem img={TastyImg} title={'TastyLand'} link={"https://tastyland.netlify.app/"}/>
+            <ProjectItem img={AmazingImg} title={'Amazing Events'} link={"https://amazingeventspage.netlify.app/"}/>
             <ProjectItem img={ArgentinaProgramaImg} title={'Portfolio Argentina Programa'}/>
         </div>
         </>

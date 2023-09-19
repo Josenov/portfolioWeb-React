@@ -7,9 +7,9 @@ const CertificationItem = ({year, title, duration, details, image }) => {
                 <div className='absolute w-3 h-3 bg-stone-200 rounded-full  mt-1.5 -left-1.5 border-white'/>
 
                 <p className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
-                    <span className='inline-block px-2 py-1 font-semibold text-white bg-yellow-300'>{year}</span>
+                    <span className='inline-block px-2 py-1 font-semibold text-black bg-yellow-300'>{year}</span>
                     <span className='text-xl font-semibold text-white'>{title}</span>
-                    <span className='my-1 text-l font-normal leading-none text-stone-400'>{duration}</span>
+                    <span className='my-1 text-l font-normal leading-none text-stone-400'></span>
                     
                     
                 </p>

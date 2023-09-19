@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'neon': ['Tilt Neon', 'cursive'],
-      'handjet':['Handjet', 'cursive'],
+      'neon': ['Tilt Neon', 'sans serif'],
+      'handjet':['Handjet', 'sans serif'],
     extend: {},
   },
   plugins: [],
