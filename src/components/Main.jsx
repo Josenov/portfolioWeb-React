@@ -7,9 +7,12 @@ import {MdLanguage} from 'react-icons/md'
 import {useTranslation} from "react-i18next"
 
 
+
+
 export const Main = () => {
   
   const[t, i18n] = useTranslation("global");
+
 
   return (
     <>
@@ -21,12 +24,12 @@ export const Main = () => {
     <div className='w-full h-screen absolute top-0 left-0 font-neon'>
       <div className='flex'>
         <MdLanguage className='text-white ml-2 my-1' size={35} />
-      <button onClick={()=>i18n.changeLanguage("en")} className='text-white text-lg md:block  top-[25%] z-10 ml-1 my-1'>EN</button>
-      <button onClick={()=>i18n.changeLanguage("es")} className='text-white text-lg md:block  top-[25%] z-10 ml-1 my-1'>ES</button>
+            <button onClick={()=>i18n.changeLanguage("en")} className='text-white text-lg md:block  top-[25%] z-10 ml-1 my-1'>EN</button>
+            <button onClick={()=>i18n.changeLanguage("es")} className='text-white text-lg md:block  top-[25%] z-10 ml-1 my-1'>ES</button>
       </div>
-    
+          
         <div className='max-w-[700px] m-auto pt-8 h-full w-full flex flex-col justify-center items-center lg:items-center'>
-        
+            
         <img src="https://images.hola.com/imagenes/actualidad/20211110199327/paul-rudd-hombre-mas-sexy/1-18-201/rudd-getty-m.jpg?tx=w_680" className='rounded-full h-48 w-48 md:h-64 md:w-64' alt="" />
           <h1 className='sm:text-7xl text-4xl  my-2 font-normal text-white'>Jose Maria Novillo</h1>
           <h2 className='flex text-4xl sm:text-5xl font-normal text-yellow-300 p-2 font-handjet'>
