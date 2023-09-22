@@ -18,10 +18,10 @@ const Skills = () => {
     const{t} = useTranslation("global")
 
     return (
-        <div id='skills' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 font-neon'>
+        <div id='skills' className='max-w-[1040px] m-auto md:pl-20 font-neon'>
             <h1 className='text-5xl font-bold text-center text-[white] pb-8'>{t("skills.h1")}</h1>
-            <p className='text-2xl text-center text-[white] '>{t("skills.soft")}</p>
-            <div className='flex justify-center gap-10 flex-wrap align-items mt-4 mb-[100px]'>
+            <p className='text-2xl text-center text-[white] mt-8 '>{t("skills.soft")}</p>
+            <div className='flex justify-center gap-10 flex-wrap align-items mt-10 mb-[100px]'>
                 <div className='flex flex-col items-center'>
                     <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={teamWork} alt="" />
                     <p className='text-white'>{t("skills.soft_skills.1")}</p>
@@ -47,7 +47,7 @@ const Skills = () => {
                 
                 
             </div>
-            <h2 className='text-2xl text-center text-[white] pb-8 mt-10'>{t("skills.hard")}</h2>
+            <h2 className='text-2xl text-center text-[white] pb-8 mt-8'>{t("skills.hard")}</h2>
 
             <div className='flex justify-center gap-5 flex-wrap align-items items-center'>
                 <div className='flex flex-col items-center' >
