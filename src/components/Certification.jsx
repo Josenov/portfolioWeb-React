@@ -16,7 +16,7 @@ const data = [
 
     {
         year: 2022,
-        title: '#ArgentinaPrograma',
+        title: 'Argentina Programa 4.0',
         duration: '2 years',
         details: `${t("certification.description_1")}`,
         image: 'https://drive.google.com/uc?export=download&id=1jPuW8MOgy3vDQOa0GTHQEwJYulXGzU3h'
