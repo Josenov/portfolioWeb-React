@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineProject} from 'react-icons/ai'
 import {GrCertificate, GrTroubleshoot} from 'react-icons/gr'
+import { useTranslation } from "react-i18next"
 
 
 
@@ -10,6 +11,7 @@ export const Sidenav = () => {
         setNav(!nav);
         console.log('state changed')
     }
+    const{t} = useTranslation("global")
 
     return (
     <div>
@@ -19,25 +21,25 @@ export const Sidenav = () => {
                 <div className='fixed w-full h-screen bg-black/70 flex flex-col justify-center items-center z-20 font-neon'>
                     <a onClick={handleNav} href='#main' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         < AiOutlineHome size={20}/>
-                        <span className='pl-4'>Inicio</span>
+                        <span className='pl-4'>{t("sidenav.home")}</span>
                     </a>
                     <a onClick={handleNav} href='#certification' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <GrCertificate size={20}/>
-                        <span className='pl-4'>Certificaciones</span>
+                        <span className='pl-4'>{t("sidenav.certifications")}</span>
                     </a>
                     <a onClick={handleNav} href='#skills' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <GrTroubleshoot size={20}/>
-                        <span className='pl-4'>Habilidades</span>
+                        <span className='pl-4'>{t("sidenav.skills")}</span>
                     </a>
 
                     <a onClick={handleNav} href='#projects' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <AiOutlineProject size={20}/>
-                        <span className='pl-4'>Proyectos</span>
+                        <span className='pl-4'>{t("sidenav.projects")}</span>
                     </a>
                     
                     <a onClick={handleNav} href='#contact' className='w-[75%] flex justify-center items-center rounded-full shadow-m  bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <AiOutlineMail size={20}/>
-                        <span className='pl-4'>Contacto</span>
+                        <span className='pl-4'>{t("sidenav.contact")}</span>
                     </a>
                 </div>
             )

@@ -3,6 +3,14 @@
         "welcome":"Hi! Welcome to my portfolio! I invite you to know me..."
     },
 
+    "sidenav":{
+        "home":"Home",
+        "certifications":"Certifications",
+        "skills":"Skills",
+        "projects":"Projects",
+        "contact":"Contact"
+    },
+
     "certification":{
         "h1": "Certifications",
         "description_1": "National and federal program aimed at training individuals in programming languages and knowledge, testing, and digital skills to enhance employability in the software and technology sector",
@@ -10,7 +18,38 @@
         "description_3":"The Junior Full Stack Software Developer has developed a series of skills and techniques relevant to the processes that are executed during the programming stage of a systems software project. These skills include specific theoretical knowledge regarding the environments in which these activities take place. Furthermore, it is evident that, to solidify these knowledge and methods, programming practice is imperative through the development and resolution of logical problems, incorporating the respective knowledge and methods for each programming language",
         "description_4":"The accredited individual is capable of developing responsive web applications using HTML5, CSS3, JavaScript, Vue, Bootstrap, the MERN Stack (MongoDB, Express, React, and Node.js). Additionally, they can address a client's requirement, analyze it, work as part of a team, and carry out its development in a timely manner, while adhering to market best practices and Agile methodologies."
 
+    },
+
+    "skills":{
+        "h1": "Skills",
+        "soft": "Soft Skills",
+        "soft_skills":{
+            "1":"Team Work",
+            "2":"Assertive Comunication",
+            "3":"Adaptability",
+            "4":"Problems Resolution",
+            "5":"English"
+            },
+        "hard": "Hard Skills"
+
+    },
+
+    "projects":{
+        "h1":"Projects",
+        "description1":"Food Website made it with HTML, CSS, Bootstrap and JavaScript fetching data from a fast food API",
+        "description2":"Events website made it with HTML, CSS, Bootstrap and JavaScript fetching data from a events API, applying filters"
+    },
+
+    "contact":{
+        "h1":"Contact",
+        "name":"Name",
+        "phone":"Phone",
+        "email":"Email",
+        "subject":"Subject",
+        "message":"Message",
+        "button":"Send"
     }
+
 
     
 }

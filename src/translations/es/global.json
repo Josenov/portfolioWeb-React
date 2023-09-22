@@ -3,12 +3,52 @@
         "welcome":"Hola! Bienvenido a mi portfolio! Te invito a conocerme..."
     },
 
+    "sidenav":{
+        "home":"Inicio",
+        "certifications":"Certificaciones",
+        "skills":"Habilidades",
+        "projects":"Proyectos",
+        "contact":"Contacto"
+    },
+
     "certification":{
-        "h1": "Certificationes",
+        "h1": "Certificaciones",
         "description_1": "Programa nacional y federal que tiene como objetivo capacitar a personas en lenguajes y conocimientos sobre programación, testing y habilidades digitales para potenciar la empleabilidad en el sector del software y la tecnología",
         "description_2":"La persona acreditada es capaz de desarrollar aplicaciones web responsivas utilizando HTML5, CSS3, Javascript, a través de los frameworks más utilizados e integrando API´s de terceros. Asimismo, es capaz de abordar un requerimiento de un cliente, analizarlo, trabajar en equipo y llevar a cabo su desarrollo en tiempo y forma, cumpliendo con las mejores prácticas de mercado y bajo metodologías ágiles.",
         "description_3":"El Desarrollador de Software Full Stack Jr desarrolló una serie de habilidades y técnicas relevantes a los procesos que se ejecutan durante la etapa de programación de un proyecto de software de sistemas. Estas habilidades incluyen conocimientos teóricos específicos respecto a los entornos en los que dichas actividades se llevan a cabo. Además de esto, resulta evidente que, para afianzar estos conocimientos y métodos, es imperativa la práctica de la programación mediante el desarrollo y resolución de problemas lógicos incorporando los conocimientos y métodos respectivos a cada lenguaje de programación.",
         "description_4":"La persona acreditada es capaz de desarrollar aplicaciones web responsivas utilizando HTML5, CSS3, Javascript, Vue, Bootstrap, el Stack de MERN (MongoDB, Express, React y Node .js. Asimismo, es capaz de abordar un requerimiento de un cliente, analizarlo, trabajar en equipo y llevar a cabo su desarrollo en tiempo y forma, cumpliendo con las mejores prácticas de mercado y bajo metodologías ágiles."
 
+    },
+
+    "skills":{
+        "h1": "Habilidades",
+        "soft": "Habilidades Blandas",
+        "soft_skills":{
+            "1":"Trabajo en Equipo",
+            "2":"Comunicación Asertiva",
+            "3":"Adaptabilidad",
+            "4":"Resolución de Problemas",
+            "5":"Inglés"
+            },
+        "hard": "Habilidades Duras"
+
+    },
+
+    "projects":{
+        "h1":"Proyectos",
+        "description1":"Pagina Web de comida hecha con HTML, CSS, Bootstrap y JavaScript usando data de una API de comida rapida",
+        "description2":"Pagina web de Eventos hecha con HTML, CSS, Bootstrap y JavaScript usando data de una API de eventos, aplicando filtros"
+    },
+
+    "contact":{
+        "h1":"Contacto",
+        "name":"Nombre",
+        "phone":"Telefono",
+        "email":"Email",
+        "subject":"Tema",
+        "message":"Mensaje",
+        "button":"Enviar"
     }
+
+    
 }

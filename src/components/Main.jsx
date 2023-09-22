@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, {  useState } from 'react'
 import BgImage from '../images/bg-workspace.jpg'
 import { TypeAnimation } from 'react-type-animation'
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
@@ -16,7 +16,7 @@ export const Main = () => {
 
   const [switchButton, setswitchButton] = useState(false);
 
-  const letterColor = useRef(null)
+  
 
   const handleButtonSwitch = () => {
     
@@ -57,8 +57,8 @@ export const Main = () => {
         <div className='max-w-[700px] m-auto  w-full flex flex-col justify-center items-center lg:items-center'>
 
           <img src="https://images.hola.com/imagenes/actualidad/20211110199327/paul-rudd-hombre-mas-sexy/1-18-201/rudd-getty-m.jpg?tx=w_680" className='rounded-full h-48 w-48 md:h-64 md:w-64' alt="" />
-          <h1 className='sm:text-7xl text-4xl  my-2 font-normal text-white'>Jose Maria Novillo</h1>
-          <h2 className='flex text-4xl sm:text-5xl font-normal text-yellow-300 p-2 font-handjet'>
+          <h1 className='sm:text-7xl text-4xl  my-2 font-bold text-white'>Jose Maria Novillo</h1>
+          <h2 className='flex text-4xl sm:text-5xl font-normal text-yellow-300 mb-4 font-handjet'>
             <TypeAnimation
               sequence={[
                 'Frontend-Developer',
@@ -84,7 +84,7 @@ export const Main = () => {
             <a href="https://github.com/" target='_blank'><FaGithub className='cursor-pointer text-white' size={35} /></a>
 
           </div>
-          <h3 className='text-white m-16 font-normal text-lg sm:text-lg xl:text-2xl text-center my-8'>{t("main.welcome")}</h3>
+          <h3 className='text-white m-8 font-normal text-xl sm:text-lg xl:text-2xl text-center'>{t("main.welcome")}</h3>
         </div>
       </div>
 

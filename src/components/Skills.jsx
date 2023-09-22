@@ -7,45 +7,49 @@ import comunication from '../images/comunication.png'
 import adaptability from '../images/adaptability.png'
 import problemResolution from '../images/problem-resolution.png'
 import idiom from '../images/hello.png'
+import {useTranslation} from "react-i18next"
 
 
 
 
 
 const Skills = () => {
+
+    const{t} = useTranslation("global")
+
     return (
         <div id='skills' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 font-neon'>
-            <h1 className='text-5xl font-bold text-center text-[white] pb-8'>Habilidades</h1>
-            <p className='text-2xl text-center text-[white] '>Habilidades Blandas</p>
+            <h1 className='text-5xl font-bold text-center text-[white] pb-8'>{t("skills.h1")}</h1>
+            <p className='text-2xl text-center text-[white] '>{t("skills.soft")}</p>
             <div className='flex justify-center gap-10 flex-wrap align-items mt-4 mb-[100px]'>
                 <div className='flex flex-col items-center'>
                     <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={teamWork} alt="" />
-                    <p className='text-white'>Trabajo en Equipo</p>
+                    <p className='text-white'>{t("skills.soft_skills.1")}</p>
                 </div>
                 <div className='flex flex-col items-center ' >
                     <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={comunication} alt="" />
-                    <p className='text-white'>Comunicacion Asertiva</p>
+                    <p className='text-white'>{t("skills.soft_skills.2")}</p>
                 </div>
                 <div className='flex flex-col items-center' >
                     <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={adaptability} alt="" />
-                    <p className='text-white'>Adaptabilidad</p>
+                    <p className='text-white'>{t("skills.soft_skills.3")}</p>
                 </div>
                 <div className='flex flex-col items-center' >
                     <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={problemResolution} alt="" />
-                    <p className='text-white'>Resolución de Problemas</p>
+                    <p className='text-white'>{t("skills.soft_skills.4")}</p>
                 </div>
                 <div className='flex flex-col items-center' >
                     <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={idiom} alt="" />
-                    <p className='text-white'>Inglés</p>
+                    <p className='text-white'>{t("skills.soft_skills.5")}</p>
                 </div>
 
                 
                 
                 
             </div>
-            <h2 className='text-2xl text-center text-[white] pb-8 mt-10'>Habilidades Duras</h2>
+            <h2 className='text-2xl text-center text-[white] pb-8 mt-10'>{t("skills.hard")}</h2>
 
-            <div className='flex justify-center gap-5 flex-wrap align-items'>
+            <div className='flex justify-center gap-5 flex-wrap align-items items-center'>
                 <div className='flex flex-col items-center' >
                     <FaHtml5 className=' text-orange-500 h-16 w-16 md:h-24 md:w-auto' />
                     <p className='text-white'>HTML</p>
@@ -55,7 +59,7 @@ const Skills = () => {
                     <p className='text-white'>CSS</p>
                 </div>
                 <div className='flex flex-col items-center' >
-                    <img src={bootstrapLogo}  className='h-16 w-auto md:h-[80px] md:w-auto mt-2' alt="" />    
+                    <img src={bootstrapLogo}  className='h-16 w-auto md:h-[90px] md:w-auto' alt="" />    
                     <p className='text-white'>Bootstrap</p>
                 </div>
                 <div className='flex flex-col items-center' >
