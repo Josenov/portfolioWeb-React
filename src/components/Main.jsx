@@ -57,7 +57,7 @@ export const Main = () => {
 
         <div className='max-w-[700px] m-auto  w-full flex flex-col justify-center items-center lg:items-center'>
 
-          <img src="https://images.hola.com/imagenes/actualidad/20211110199327/paul-rudd-hombre-mas-sexy/1-18-201/rudd-getty-m.jpg?tx=w_680" className='rounded-full h-48 w-48 md:h-64 md:w-64' alt="" />
+          <img src="http://drive.google.com/uc?export=view&id=1b_1dQ_uCiQry7uSvWQjOeqNm96TUcFxz" className='rounded-full object-cover object-center h-32 w-32 md:h-64 md:w-64' alt="" />
           <h1 className='sm:text-7xl text-4xl  my-2 font-bold text-white'>Jose Maria Novillo</h1>
           <h2 className='flex text-4xl sm:text-5xl font-normal text-yellow-300 mb-4 font-handjet'>
             <TypeAnimation
