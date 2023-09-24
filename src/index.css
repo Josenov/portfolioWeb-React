@@ -3,11 +3,48 @@
 @tailwind utilities;
 
 
-*{
+* {
     scroll-behavior: smooth;
-    
+
 }
 
-#main{
+#main {
     font-family: 'Tilt Neon', sans-serif;
+}
+
+
+/* sweetAlert Style */
+.swal2-popup {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.59);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 40%;
+
+}
+
+.swal2-title {
+    color: #fff;
+    font-size: 34px;
+}
+.swal2-text {
+    color: red;
+    font-size: 34px;
+}
+
+.swal2-content {
+    color: red;
+}
+
+.swal2-actions{
+    display: flex;
+    justify-content: center;
+    
+    
+    
 }
