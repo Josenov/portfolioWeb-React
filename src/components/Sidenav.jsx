@@ -50,19 +50,19 @@ export const Sidenav = () => {
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>
                     <a href='#main' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Home'>
-                        <AiOutlineHome /> 
+                        <AiOutlineHome size={25} /> 
                     </a>
                     <a href='#certification' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Certificates'>
-                        <GrCertificate />
+                        <GrCertificate size={25}/>
                     </a>
                     <a href='#skills' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300'title='Skills'>
-                        <GrTroubleshoot />
+                        <GrTroubleshoot size={25}/>
                     </a>
                     <a href='#projects' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Projects'>
-                        <AiOutlineProject />
+                        <AiOutlineProject size={25}/>
                     </a>
                     <a href='#contact' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Contact'>
-                        <AiOutlineMail />
+                        <AiOutlineMail size={25}/>
                     </a>
                     
                 </div>

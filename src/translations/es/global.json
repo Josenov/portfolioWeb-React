@@ -48,6 +48,11 @@
         "subject":"Tema",
         "message":"Mensaje",
         "button":"Enviar"
+    },
+
+    "popup":{
+        "title":"Genial!",
+        "text":"Mensaje enviado!"
     }
 
     

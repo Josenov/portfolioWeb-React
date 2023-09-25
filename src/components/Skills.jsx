@@ -23,23 +23,23 @@ const Skills = () => {
             <p className='text-2xl text-center text-[white] mt-8 '>{t("skills.soft")}</p>
             <div className='flex justify-center gap-10 flex-wrap align-items mt-10 mb-[100px]'>
                 <div className='flex flex-col items-center'>
-                    <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={teamWork} alt="" />
+                    <img className='h-16 w-16 md:h-[95px] md:w-auto mb-1'  src={teamWork} alt="" />
                     <p className='text-white'>{t("skills.soft_skills.1")}</p>
                 </div>
                 <div className='flex flex-col items-center ' >
-                    <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={comunication} alt="" />
+                    <img className='h-16 w-16 md:h-[95px] md:w-auto mb-1'  src={comunication} alt="" />
                     <p className='text-white'>{t("skills.soft_skills.2")}</p>
                 </div>
                 <div className='flex flex-col items-center' >
-                    <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={adaptability} alt="" />
+                    <img className='h-16 w-16 md:h-[95px] md:w-auto mb-1'  src={adaptability} alt="" />
                     <p className='text-white'>{t("skills.soft_skills.3")}</p>
                 </div>
                 <div className='flex flex-col items-center' >
-                    <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={problemResolution} alt="" />
+                    <img className='h-16 w-16 md:h-[95px] md:w-auto mb-1'  src={problemResolution} alt="" />
                     <p className='text-white'>{t("skills.soft_skills.4")}</p>
                 </div>
                 <div className='flex flex-col items-center' >
-                    <img className='h-16 w-16 md:h-[70px] med:w-auto mb-1'  src={idiom} alt="" />
+                    <img className='h-16 w-16 md:h-[95px] md:w-auto mb-1'  src={idiom} alt="" />
                     <p className='text-white'>{t("skills.soft_skills.5")}</p>
                 </div>
 

@@ -5,6 +5,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { MdLanguage } from 'react-icons/md'
 import { useTranslation } from "react-i18next"
+import portfolioPic from '../images/portfolio-pic.jpg'
 
 
 
@@ -57,7 +58,7 @@ export const Main = () => {
 
         <div className='max-w-[700px] m-auto  w-full flex flex-col justify-center items-center lg:items-center'>
 
-          <img src="http://drive.google.com/uc?export=view&id=165jQT9bpmnnrquNyi6zK_z-YHBGLoBfp" className='rounded-full object-cover object-right h-48 w-48 md:h-64 md:w-64' alt="" />
+          <img src={portfolioPic} className='rounded-full object-cover object-right h-48 w-48 md:h-64 md:w-64' alt="" />
           <h1 className='sm:text-7xl text-4xl  my-2 font-bold text-white'>Jose Maria Novillo</h1>
           <h2 className='flex text-4xl sm:text-5xl font-normal text-yellow-300 mb-4 font-handjet'>
             <TypeAnimation

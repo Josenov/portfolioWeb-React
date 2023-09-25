@@ -1,7 +1,8 @@
 import React from 'react'
 import CertificationItem from './CertificationItem'
 import {useTranslation} from "react-i18next"
-
+import certEpica from '../images/cert_epica.jpg'
+import certAp from '../images/cert-ap.jpg'
 
 
 
@@ -19,7 +20,7 @@ const data = [
         title: 'Argentina Programa 4.0',
         duration: '2 years',
         details: `${t("certification.description_1")}`,
-        image: 'https://drive.google.com/uc?export=download&id=1jPuW8MOgy3vDQOa0GTHQEwJYulXGzU3h'
+        image: `${certAp}`
 
     },
 
@@ -37,7 +38,7 @@ const data = [
         title: 'Epica SAPEM - Full Stack Developer',
         duration: '2 Years',
         details: `${t("certification.description_3")}`,
-        image: 'https://drive.google.com/uc?export=download&id=1VmHrZ_SFlfM7L4tLXRoksh_UMmlhgHlR'
+        image: `${certEpica}`
     },
 
     {

@@ -48,7 +48,13 @@
         "subject":"Subject",
         "message":"Message",
         "button":"Send"
+    },
+
+    "popup":{
+        "title":"Awesome!",
+        "text":"Message sent!"
     }
+
 
 
     

@@ -3,6 +3,9 @@ import { useTranslation } from "react-i18next"
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
 import '../index.css'
+import sentImg from '../images/sent-img.png'
+
+
 
 
 
@@ -17,16 +20,20 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_73zzonm', 'template_pfewb0a', form.current, '1LRuXr0wv-VG2e8Dn')
+        emailjs.sendForm('service_7ksbjek', 'template_hevna7m', form.current, 'UlI3Rb8GhO3DFDuGP')
             .then((result) => {
                 console.log(result.text);
                 Swal.fire({
-                    customClass: {
-                        title: 'swal2-title',
-                        text: 'swal2-text'
-                    },
-                    title: 'Listo!',
-                    text: 'Mensaje Enviado!'
+                    
+                        title: `${t("popup.title")}`,
+                        text: `${t("popup.text")}`,
+                        imageUrl: `${(sentImg)}`,
+                        imageWidth: 250,
+                        imageHeight: 300,
+                        imageAlt: 'Custom image',
+                        confirmButtonColor: '#FDE047',
+                        animation: true,
+                    
                 })
 
             }, (error) => {
