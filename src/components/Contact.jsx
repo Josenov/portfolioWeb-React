@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next"
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
 import '../index.css'
-import sentImg from '../images/sent-img.png'
+import sentImg from '../images/check-icon.png'
 
 
 
@@ -28,13 +28,15 @@ const Contact = () => {
                         title: `${t("popup.title")}`,
                         text: `${t("popup.text")}`,
                         imageUrl: `${(sentImg)}`,
-                        imageWidth: 250,
-                        imageHeight: 300,
+                        imageWidth: 200,
+                        imageHeight: 200,
                         imageAlt: 'Custom image',
                         confirmButtonColor: '#FDE047',
                         animation: true,
                     
-                })
+                }),
+
+                form.current.reset();
 
             }, (error) => {
                 console.log(error.text);
