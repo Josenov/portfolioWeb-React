@@ -49,7 +49,7 @@ const Contact = () => {
 
 
     return (
-        <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 font-neon'>
+        <div id='contact' className='max-w-[800px] m-auto md:pl-20 p-4 py-16 font-neon'>
             <h1 className='  text-5xl font-bold text-center text-white pb-8'>{t("contact.h1")}</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div className='grid md:grid-cols-1 gap-4 w-full py-2'>
