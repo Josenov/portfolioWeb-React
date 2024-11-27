@@ -1,7 +1,7 @@
 import React from 'react'
 import TastyImg from '../images/tastyland.jpg'
 import AmazingImg from '../images/amazingevents.jpg'
-import MoonbeanCoffee from '../images/MoonbeanCoffee.png'
+import MoonbeanCoffee from '../images/moonbeancoffee.png'
 import ProjectItem from './ProjectItem'
 import {useTranslation} from "react-i18next"
 
