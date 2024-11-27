@@ -67,8 +67,8 @@ export const Main = () => {
                 3000,
                 'Backend-Developer',
                 3000,
-                /* 'UX/UI Designer',
-                3000, */
+                'UX/UI Designer',
+                3000,
                 'Tech Lover',
                 3000
               ]}

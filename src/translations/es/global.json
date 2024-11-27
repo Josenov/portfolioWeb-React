@@ -34,10 +34,16 @@
 
     },
 
+    "projectItem":{
+        "button":"Visitar Pagina Web"
+        
+    },
+
     "projects":{
         "h1":"Proyectos",
         "description1":"Pagina Web de comida hecha con HTML, CSS, Bootstrap y JavaScript usando data de una API de comida rapida",
-        "description2":"Pagina web de Eventos hecha con HTML, CSS, Bootstrap y JavaScript usando data de una API de eventos, aplicando filtros"
+        "description2":"Pagina web de Eventos hecha con HTML, CSS, Bootstrap y JavaScript usando data de una API de eventos, aplicando filtros",
+        "description3":"Pagina web cafeteria hecha con React + Vite + TailwindCss para el frontend y MERN para el backend, implementa un carrito de compras y registro e inicio de sesión de usuarios"
     },
 
     "contact":{

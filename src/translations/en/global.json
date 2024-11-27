@@ -34,10 +34,16 @@
 
     },
 
+    "projectItem":{
+        "button":"Visit Website"
+        
+    },
+
     "projects":{
         "h1":"Projects",
         "description1":"Food Website made it with HTML, CSS, Bootstrap and JavaScript fetching data from a fast food API",
-        "description2":"Events website made it with HTML, CSS, Bootstrap and JavaScript fetching data from a events API, applying filters"
+        "description2":"Events website made it with HTML, CSS, Bootstrap and JavaScript fetching data from a events API, applying filters",
+        "description3": "Coffee shop website built with React + Vite + TailwindCSS for the frontend and MERN for the backend, featuring a shopping cart and user registration and login functionality"
     },
 
     "contact":{

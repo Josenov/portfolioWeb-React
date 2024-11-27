@@ -17,9 +17,9 @@ function App() {
       <div className='bg-black'>
         <Sidenav />
         <Main />
-        <Certification />
-        <Skills />
         <Projects />
+        <Skills />
+        <Certification />
         <Contact />
         <Footer />
       </div>

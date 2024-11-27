@@ -23,20 +23,18 @@ export const Sidenav = () => {
                         < AiOutlineHome size={20}/>
                         <span className='pl-4'>{t("sidenav.home")}</span>
                     </a>
-                    <a onClick={handleNav} href='#certification' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <GrCertificate size={20}/>
-                        <span className='pl-4'>{t("sidenav.certifications")}</span>
+                    <a onClick={handleNav} href='#projects' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <AiOutlineProject size={20}/>
+                        <span className='pl-4'>{t("sidenav.projects")}</span>
                     </a>
                     <a onClick={handleNav} href='#skills' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <GrTroubleshoot size={20}/>
                         <span className='pl-4'>{t("sidenav.skills")}</span>
                     </a>
-
-                    <a onClick={handleNav} href='#projects' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <AiOutlineProject size={20}/>
-                        <span className='pl-4'>{t("sidenav.projects")}</span>
+                    <a onClick={handleNav} href='#certification' className='w-[75%] flex justify-center items-center rounded-full shadow-m bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <GrCertificate size={20}/>
+                        <span className='pl-4'>{t("sidenav.certifications")}</span>
                     </a>
-                    
                     <a onClick={handleNav} href='#contact' className='w-[75%] flex justify-center items-center rounded-full shadow-m  bg-yellow-300 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <AiOutlineMail size={20}/>
                         <span className='pl-4'>{t("sidenav.contact")}</span>
@@ -52,14 +50,14 @@ export const Sidenav = () => {
                     <a href='#main' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Home'>
                         <AiOutlineHome size={20} /> 
                     </a>
-                    <a href='#certification' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Certificates'>
-                        <GrCertificate size={20}/>
+                    <a href='#projects' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Projects'>
+                        <AiOutlineProject size={20}/>
                     </a>
                     <a href='#skills' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300'title='Skills'>
                         <GrTroubleshoot size={20}/>
                     </a>
-                    <a href='#projects' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Projects'>
-                        <AiOutlineProject size={20}/>
+                    <a href='#certification' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Certificates'>
+                        <GrCertificate size={20}/>
                     </a>
                     <a href='#contact' className='rounded-full shadow-sm bg-yellow-300 shadow-white m-5 p-4 cursor-pointer hover:scale-110 ease-in duration-300' title='Contact'>
                         <AiOutlineMail size={20}/>
