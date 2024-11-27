@@ -83,7 +83,7 @@ const Skills = () => {
                     <p className='text-white'>MongoDB</p>
                 </div>
                 <div className='flex flex-col items-center' >
-                    <img src="https://wsofter.ru/wp-content/uploads/2017/12/node-express.png"  className='h-16 w-16 md:h-24 md:w-24' alt="" />      
+                    <img src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"  className='h-16 w-16 md:h-24 md:w-24' alt="" />      
                     <p className='text-white'>Express</p>
                 </div>
                 <div className='flex flex-col items-center' >
