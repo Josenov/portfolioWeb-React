@@ -6,11 +6,14 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
+import { useEffect } from 'react'
 
 
 
 function App() {
-  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     
