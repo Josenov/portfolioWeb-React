@@ -83,7 +83,7 @@ export const Main = () => {
             <a href="https://twitter.com/?lang=es" target='_blank'><FaXTwitter className='cursor-pointer text-white' size={35} /></a>
             <a href="https://www.instagram.com/" target='_blank'><FaInstagram className='cursor-pointer text-white' size={35} /></a>
             <a href="https://www.linkedin.com/feed/" target='_blank'><FaLinkedin className='cursor-pointer text-white' size={35} /></a>
-            <a href="https://github.com/" target='_blank'><FaGithub className='cursor-pointer text-white' size={35} /></a>
+            <a href="https://github.com/Josenov" target='_blank'><FaGithub className='cursor-pointer text-white' size={35} /></a>
 
           </div>
           <h3 className='text-white m-8 font-normal text-xl sm:text-lg xl:text-2xl text-center'>{t("main.welcome")}</h3>
