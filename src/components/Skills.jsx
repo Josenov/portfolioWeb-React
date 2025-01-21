@@ -32,7 +32,7 @@ const Skills = () => {
             <p className='text-2xl text-center text-[white] mt-8 '>{t("skills.soft")}</p>
             <div className='flex justify-center gap-10 flex-wrap align-items mt-10 mb-[100px]'>
                 <div className='flex flex-col items-center'>
-                    <img className=' md:h-[95px] md:w-auto mb-1'   src={teamWork}  alt="Trabajo en equipo" />
+                    <img className='h-16 w-16  md:h-[95px] md:w-auto mb-1'   src={teamWork}  alt="Trabajo en equipo" />
                     <p className='text-white'>{t("skills.soft_skills.1")}</p>
                 </div>
                 <div className='flex flex-col items-center ' >
@@ -69,7 +69,7 @@ const Skills = () => {
                     <p className='text-white'>CSS</p>
                 </div>
                 <div className='flex flex-col items-center' >
-                    <img src={bootstrapLogo}  className='h-16 w-auto md:h-[90px] md:w-auto' alt="" />    
+                    <img src={bootstrapLogo}  className='h-14 w-auto md:h-[50px] md:w-auto' alt="" />    
                     <p className='text-white'>Bootstrap</p>
                 </div>
                 <div className='flex flex-col items-center' >
@@ -97,7 +97,7 @@ const Skills = () => {
                     <p className='text-white'>Express</p>
                 </div>
                 <div className='flex flex-col items-center' >
-                    <img src={postman}  className='h-16 w-16 md:h-24 md:w-24' alt="" />     
+                    <img src={postman}  className='h-auto w-[70px] md:h-24 md:w-24' alt="" />     
                     <p className='text-white'>Postman</p>
                 </div>
                 <div className='flex flex-col items-center' >
