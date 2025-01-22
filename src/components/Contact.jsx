@@ -20,7 +20,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_7ksbjek', 'template_hevna7m', form.current, 'UlI3Rb8GhO3DFDuGP')
+        emailjs.sendForm('service_7ksbjek', 'template_hevna7m', form.current, 'hLBRSjkkZ4xfuP6ca')
             .then((result) => {
                 console.log(result.text);
                 Swal.fire({
@@ -49,7 +49,7 @@ const Contact = () => {
 
 
     return (
-        <div id='contact' className='max-w-[800px] m-auto md:pl-20 p-4 py-16 font-neon'>
+        <div id='contact' className='max-w-[400px] m-auto md:pl-20 md:max-w-[700px] p-4 py-16 font-neon'>
             <h1 className='  text-5xl font-bold text-center text-white pb-8'>{t("contact.h1")}</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div className='grid md:grid-cols-1 gap-4 w-full py-2'>

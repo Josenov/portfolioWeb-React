@@ -69,7 +69,7 @@ const Skills = () => {
                     <p className='text-white'>CSS</p>
                 </div>
                 <div className='flex flex-col items-center' >
-                    <img src={bootstrapLogo}  className='h-14 w-auto md:h-[50px] md:w-auto' alt="" />    
+                    <img src={bootstrapLogo}  className='h-14 w-auto md:h-24 md:w-auto' alt="" />    
                     <p className='text-white'>Bootstrap</p>
                 </div>
                 <div className='flex flex-col items-center' >
