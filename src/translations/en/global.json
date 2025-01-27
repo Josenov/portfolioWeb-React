@@ -16,8 +16,8 @@
         "description_1": "National and federal program aimed at training individuals in programming languages and knowledge, testing, and digital skills to enhance employability in the software and technology sector",
         "description_2":"The accredited person is capable of developing responsive web applications using HTML5, CSS3, JavaScript, through the most commonly used frameworks, and integrating third-party APIs. Additionally, they can address a client's requirement, analyze it, work as part of a team, and carry out its development in a timely manner, while adhering to market best practices and Agile methodologies.",
         "description_3":"The Junior Full Stack Software Developer has developed a series of skills and techniques relevant to the processes that are executed during the programming stage of a systems software project. These skills include specific theoretical knowledge regarding the environments in which these activities take place. Furthermore, it is evident that, to solidify these knowledge and methods, programming practice is imperative through the development and resolution of logical problems, incorporating the respective knowledge and methods for each programming language",
-        "description_4":"The accredited individual is capable of developing responsive web applications using HTML5, CSS3, JavaScript, Vue, Bootstrap, the MERN Stack (MongoDB, Express, React, and Node.js). Additionally, they can address a client's requirement, analyze it, work as part of a team, and carry out its development in a timely manner, while adhering to market best practices and Agile methodologies."
-
+        "description_4":"The accredited individual is capable of developing responsive web applications using HTML5, CSS3, JavaScript, Vue, Bootstrap, the MERN Stack (MongoDB, Express, React, and Node.js). Additionally, they can address a client's requirement, analyze it, work as part of a team, and carry out its development in a timely manner, while adhering to market best practices and Agile methodologies.",
+        "description_5":"The accredited individual is capable of designing user-centered experiences (UX) and interfaces (UI), applying methodologies such as Design Thinking and usability principles. They master tools like Figma to create wireframes, interactive prototypes, and responsive designs, ensuring accessibility and adaptability across different devices. Additionally, they possess skills to research and analyze user needs, collaborate in multidisciplinary teams using agile methodologies, and present design solutions that meet market standards and client expectations."
     },
 
     "skills":{
@@ -59,6 +59,11 @@
     "popup":{
         "title":"Awesome!",
         "text":"Message sent!"
+    },
+
+    "toggleBtn":{
+        "text-1":"Read more",
+        "text-2":"Hide details"
     }
 
 

@@ -17,6 +17,10 @@ import express from '../images/express.png'
 import postman from '../images/postman.png'
 import github from '../images/github.png'
 import mongo from '../images/mongo.png'
+import sass from '../images/sass.png'
+import ts from '../images/typescript.png'
+import java from '../images/java.png'
+import spring from '../images/spring.png'
 
 
 
@@ -27,7 +31,7 @@ const Skills = () => {
     const{t} = useTranslation("global")
 
     return (
-        <div id='skills' className='max-w-[1040px] m-auto md:pl-20 font-neon'>
+        <div id='skills' className='max-w-[1040px] m-auto md:pl-20 font-neon mt-10'>
             <h1 className='text-5xl font-bold text-center text-[white] pb-8'>{t("skills.h1")}</h1>
             <p className='text-2xl text-center text-[white] mt-8 '>{t("skills.soft")}</p>
             <div className='flex justify-center gap-10 flex-wrap align-items mt-10 mb-[100px]'>
@@ -77,8 +81,16 @@ const Skills = () => {
                     <p className='text-white'>Tailwind CSS</p>
                 </div>
                 <div className='flex flex-col items-center' >
+                    <img src={sass}  className='h-16 w-16 md:h-24 md:w-auto' alt="" />    
+                    <p className='text-white'>Sass</p>
+                </div>
+                <div className='flex flex-col items-center' >
                 <img src={js} alt="" className='h-16 w-16 md:h-24 md:w-auto' />     
                     <p className='text-white'>JavaScript</p>
+                </div>
+                <div className='flex flex-col items-center' >
+                <img src={ts} alt="" className='h-20 w-20 md:h-28 md:w-auto' />     
+                    <p className='text-white'>TypeScript</p>
                 </div>
                 <div className='flex flex-col items-center' >
                 <img src={react} alt="" className='h-16 w-16 md:h-24 md:w-auto' />     
@@ -103,6 +115,14 @@ const Skills = () => {
                 <div className='flex flex-col items-center' >
                     <img src={github}  className='h-16 w-16 md:h-24 md:w-24' alt="" />    
                     <p className='text-white'>Github</p>
+                </div>
+                <div className='flex flex-col items-center' >
+                    <img src={java}  className='h-20 w-20 md:h-28 md:w-auto' alt="" />    
+                    <p className='text-white'>Java</p>
+                </div>
+                <div className='flex flex-col items-center' >
+                    <img src={spring}  className='h-16 w-16 md:h-24 md:w-24' alt="" />    
+                    <p className='text-white'>Spring</p>
                 </div>
                 
             

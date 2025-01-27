@@ -3,6 +3,8 @@ import CertificationItem from './CertificationItem'
 import {useTranslation} from "react-i18next"
 import certEpica from '../images/cert_epica.jpg'
 import certAp from '../images/cert-ap.jpg'
+import certUXUI from '../images/cert-uxui.jpg'
+
 
 
 
@@ -49,12 +51,20 @@ const data = [
         image: 'https://images.credly.com/size/340x340/images/be67019e-9d37-432b-bc29-18cdcb85917b/image.png'
     },
 
+    {
+        year: 2023,
+        title: 'Curso Diseño UX UI - Codo a Codo',
+        duration: '2 Years',
+        details: `${t("certification.description_5")}`,
+        image: `${certUXUI}`
+    },
+
 ]
 
     
 
     return (
-        <div id='certification' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <div id='certification' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 mt-10'>
             <h1 className='text-5xl font-bold text-center text-white pb-8 font-neon'>{t("certification.h1")}</h1>
             {
                 data.map((item, id)=>(

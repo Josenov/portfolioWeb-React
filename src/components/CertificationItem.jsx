@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa'
+import {useTranslation} from "react-i18next"
 
 
 const CertificationItem = ({year, title, duration, details, image }) => {
+
+    const{t} = useTranslation("global")
 
 
     const [isExpanded, setIsExpanded] = useState(false);
@@ -36,12 +39,12 @@ const CertificationItem = ({year, title, duration, details, image }) => {
                     {isExpanded ? (
                         <>
                             <FaChevronUp className='mr-2' /> {/* Ícono para "Leer menos" */}
-                            Ocultar detalles
+                            <p>{t("toggleBtn.text-2")}</p>
                         </>
                     ) : (
                         <>
                             <FaChevronDown className='mr-2' /> {/* Ícono para "Leer más" */}
-                            Leer más
+                            <p>{t("toggleBtn.text-1")}</p>
                         </>
                     )}
                 </button>
