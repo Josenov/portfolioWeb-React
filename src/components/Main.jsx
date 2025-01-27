@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { MdLanguage } from 'react-icons/md'
 import { useTranslation } from "react-i18next"
-import portfolioPic from '../images/portfolio-pic.png'
+import portfolioPic from '../images/portfolio-pic.jpg'
 
 
 
