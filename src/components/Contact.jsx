@@ -19,35 +19,44 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
+    
         emailjs.sendForm(
             import.meta.env.VITE_EMAILJS_SERVICE_ID,
             import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
             form.current,
             import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         )
-            .then((result) => {
-                console.log(result.text);
-                Swal.fire({
-                    
-                        title: `${t("popup.title")}`,
-                        text: `${t("popup.text")}`,
-                        imageUrl: `${(sentImg)}`,
-                        imageWidth: 200,
-                        imageHeight: 200,
-                        imageAlt: 'Custom image',
-                        confirmButtonColor: '#FDE047',
-                        animation: true,
-                    
-                }),
+        .then((result) => {
+            console.log(result.text);
+            Swal.fire({
+                title: `${t("popup.title")}`,
+                text: `${t("popup.text")}`,
+                imageUrl: `${(sentImg)}`,
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: 'Custom image',
+                confirmButtonColor: '#FDE047',
+                animation: true,
+            }).then(() => {
 
                 form.current.reset();
 
-            }, (error) => {
-                console.log(error.text);
-                console.log('Message Failed')
+                setTimeout(() => {
+                    location.hash = "#main"
+                    location.reload(); // Recargamos la página para que inicie en la parte superior
+                }, 500);
+                
+
+                
             });
 
+            
+    
+            
+        }, (error) => {
+            console.log(error.text);
+            console.log('Message Failed');
+        });
     };
 
 
@@ -78,7 +87,7 @@ const Contact = () => {
                         <label className='uppercase text-sm py-2 font-bold text-white'>{t("contact.message")}</label>
                         <textarea className='border-2 rounded-lg p-3 flex border-gray-300' rows={10} required type="text" name='message' />
                     </div>
-                    <button type='submit' value="Send" className='bg-yellow-300 text-black rounded-full font-bold mt-4 w-full p-4' >{t("contact.button")}</button>
+                    <button type='submit' value="Send"  className='bg-yellow-300 text-black rounded-full font-bold mt-4 w-full p-4' >{t("contact.button")}</button>
                 </div>
 
             </form>
